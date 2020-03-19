@@ -1,7 +1,8 @@
 const assert = require('assert')
+const { addFeature } = require('@wdio/allure-reporter').default
 
 describe('Wambi pages', () => {
-        const targetURL = "http://wambi.wp.cuberto.com";
+        const targetURL = "https://wambi.org";
         const arrayURI = [
             `${targetURL}/preview/`,
             `${targetURL}/preview/our-team/10-alex-coren?ml=1`,
@@ -39,9 +40,9 @@ describe('Wambi pages', () => {
             `${targetURL}/company/`,
             `${targetURL}/company/`,
             `${targetURL}/company/`,
-            `${targetURL}/news`,
-            `${targetURL}/news`,
-            `${targetURL}/news`,
+            `${targetURL}/news/`,
+            `${targetURL}/news/`,
+            `${targetURL}/news/`,
             `${targetURL}/careers/`,
             `${targetURL}/blog/`,
             `${targetURL}/blog/`,
