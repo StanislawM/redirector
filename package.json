@@ -1,0 +1,29 @@
+{
+  "name": "redirector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StanislawM/redirector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StanislawM/redirector/issues"
+  },
+  "homepage": "https://github.com/StanislawM/redirector#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.22.1",
+    "@wdio/local-runner": "^5.22.1",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.20.1",
+    "chromedriver": "^80.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}
